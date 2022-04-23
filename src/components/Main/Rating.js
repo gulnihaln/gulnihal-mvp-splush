@@ -5,7 +5,7 @@ export default function Rating ( { node, isZero } ) {
 
     return (
         <div>
-            {isZero ? <AiOutlineStar /> 
+            {isZero ? <AiOutlineStar />
             : <p className="rating" key={node.id}><AiTwotoneStar />{`(${Math.round(node.rating)})`}</p>
         }
         </div>

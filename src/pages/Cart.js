@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+// import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "../pages/styles/Cart.css";
 
@@ -23,9 +23,9 @@ export default function Cart() {
 				<article className="cart-summary">
 					<p className="summary">Order Summary</p>
 					<div className="amount">
-						<p>{`${allInCart.length} item${
+						{/* <p>{`${allInCart.length} item${
 							allInCart.length > 1 ? "s" : ""
-						}`}</p>
+						}`}</p> */}
 						<p>£ 00.00</p>
 					</div>
 					<div className="cart-summary-delivery">
