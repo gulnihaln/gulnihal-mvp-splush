@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import { gql, useQuery } from "@apollo/client";
 import { query } from "../utils/getQuery";
 import { useLocation } from "react-router-dom";
@@ -17,7 +17,6 @@ export default function CategoryPage() {
     if(loading) {
     return <h1> loading</h1>;
     }
-    
     const path = location.pathname.split("/")[2].split("%20").join(" ");
 
     return (
@@ -33,5 +32,5 @@ export default function CategoryPage() {
                 }
             })}
         </div>
-    )
+    );
 }

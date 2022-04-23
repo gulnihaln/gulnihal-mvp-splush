@@ -4,7 +4,7 @@ import "../pages/styles/Cart.css";
 
 
 export default function Cart() {
-	const [allInCart, setAllInCart] = useState([]);
+	// const [allInCart, setAllInCart] = useState([]);
 
 	// const allCart = allInCart.map((item) => (
 	// 	<CartItem
@@ -19,7 +19,7 @@ export default function Cart() {
 					<h2>Your Bag</h2>
 					<p>Items in your bag are not reserved.</p>
 				</article>
-				<article className="cart-items-container">{allInCart}</article>
+				<article className="cart-items-container">items will be rendered here</article>
 				<article className="cart-summary">
 					<p className="summary">Order Summary</p>
 					<div className="amount">
